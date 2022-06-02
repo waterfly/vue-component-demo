@@ -1,7 +1,6 @@
 {
   "name": "vue-component-demo",
   "version": "0.1.0",
-  "private": true,
   "description": "Vue组件Demo",
   "keywords": [
     "Vue",

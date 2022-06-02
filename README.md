@@ -147,6 +147,8 @@ vue.config.js
 
 ### 发布
 
+注意移除`package.json`文件里 `private字段`
+
 ```shell
 // 1. 编译
 yarn lib
