@@ -1,0 +1,6 @@
+doc/
+examples/
+packages/
+public/
+babel.config.js
+vue.config.js

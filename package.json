@@ -2,9 +2,27 @@
   "name": "vue-component-demo",
   "version": "0.1.0",
   "private": true,
+  "description": "Vue组件Demo",
+  "keywords": [
+    "Vue",
+    "组件",
+    "Demo"
+  ],
+  "license": "ISC",
+  "author": {
+    "name": "waterFly",
+    "email": "yiyeff@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:waterfly/vue-component-demo.git"
+  },
+  "homepage": "https://github.com/waterfly/vue-component-demo",
+  "main": "lib/vue-component-demo.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-component-demo --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
